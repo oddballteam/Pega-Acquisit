@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database catalogName="" databaseName="CustomerData" schemaName="" type="6">
+    <table name="pr_myorg_acquisit_data_procure">
+        <column dbtypename="varchar" name="pyGUID" pkname="pr_myorg_acquisit_dat814ff8_pk" primarykey="true" required="true" size="128" type="VARCHAR"/>
+        <column dbtypename="jsonb" name="pzjsonstream" size="2147483647" type="JSON"/>
+        <column dbtypename="timestamp" name="pxCommitDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pxCreateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxCreateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxSaveDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxUpdateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxUpdateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="ProcurementContractName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractIdentifier" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EffectiveDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ExpirationDate" size="8" type="VARCHAR"/>
+        <column dbtypename="numeric" name="AmendmentCount" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="ConfidentialityClause" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractApprovalDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractObligations" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_1" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractRenewalOption" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractRisks" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="KeyPerformanceIndicators" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="PaymentTerms" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ScopeOfWork" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_2" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="TerminationClause" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="TotalContractValue" scale="9" size="18" type="NUMERIC"/>
+    </table>
+</database>

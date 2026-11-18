@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database catalogName="" databaseName="PegaDATA" schemaName="" type="6">
+    <table name="pc_MyOrg_Acquisit_Work">
+        <column dbtypename="timestamp" name="pxCommitDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pxSaveDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxCoverInsKey" size="255" type="VARCHAR"/>
+        <column dbtypename="numeric" name="pxCoveredCount" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pxCoveredCountOpen" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pxCoveredCountUnsatisfied" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="timestamp" name="pxCreateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxCreateOpName" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateOperator" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateSystemID" size="32" type="VARCHAR"/>
+        <column dbtypename="numeric" name="pxFlowCount" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="pxInsName" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxObjClass" size="96" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxUpdateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxUpdateOpName" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateOperator" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateSystemID" size="32" type="VARCHAR"/>
+        <column dbtypename="numeric" name="pxUrgencyWork" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="timestamp" name="pyAckTimestamp" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pyAgeFromDate" size="29" type="TIMESTAMP"/>
+        <column dbtypename="numeric" name="pyChargeAmount" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="pyChargeTo" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyContactChannel" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyContactType" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyCusLevel" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyCustomer" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyCustomerEnterprise" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyCustomerName" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyCustomerOrg" size="32" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pyCustomerSatisfiedTimestamp" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pyDescription" size="255" type="VARCHAR"/>
+        <column dbtypename="numeric" name="pyEffortActual" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyEffortEstimate" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="timestamp" name="pyEffortEstimateTimestamp" size="29" type="TIMESTAMP"/>
+        <column dbtypename="numeric" name="pyElapsedCustomerAck" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyElapsedCustomerUnsatisfied" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyElapsedPastDeadline" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyElapsedPastGoal" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyElapsedStatusNew" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyElapsedStatusOpen" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyElapsedStatusPending" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="pyEventID" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyFolderType" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyID" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyLabel" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOrigDivision" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOrigOrg" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOrigOrgUnit" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOrigUserDivision" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOrigUserID" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOrigUserWorkgroup" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOwnerDivision" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOwnerOrg" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyOwnerOrgUnit" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyPrimaryContact" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyProblemReason" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyProblemSource" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyProblemType" size="64" type="VARCHAR"/>
+        <column dbtypename="numeric" name="pyReopenCount" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="timestamp" name="pyReopenTimestamp" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pyResolutionComplexity" size="8" type="VARCHAR"/>
+        <column dbtypename="numeric" name="pyResolutionCost" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="pyResolvedDivision" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyResolvedOrg" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyResolvedOrgUnit" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyResolvedTime" size="32" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pyResolvedTimestamp" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pyResolvedUserID" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyResolvedUserWorkgroup" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyRootCause" size="64" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pySLADeadline" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pySLAGoal" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pySLAName" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyStatusCustomerSat" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyStatusWork" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyWorkListDate1" size="8" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pyWorkListDateTime1" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pyWorkListDateTime2" size="29" type="TIMESTAMP"/>
+        <column dbtypename="numeric" name="pyWorkListDecimal1" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyWorkListDecimal2" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="pyWorkListInteger1" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="pyWorkListText1" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyWorkListText2" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyWorkListText3" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCurrentStageLabel" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCurrentStage" size="32" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pzInsKey" pkname="pc_myorg_acquisit_work_pk" primarykey="true" required="true" size="255" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxApplication" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxApplicationVersion" size="32" type="VARCHAR"/>
+        <column dbtypename="bytea" name="pzPVStream" size="2147483647" type="BINARY"/>
+        <column dbtypename="numeric" name="pxExternalSystemUpdateCount" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="ProcurementRequestName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RequestedGoodsOrServicesDes_1" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RequestingStakeholder" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="JustificationForProcurement" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RequestedDeliveryDate" size="8" type="VARCHAR"/>
+        <column dbtypename="numeric" name="EstimatedBudgetAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="ProcurementMethod" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EvaluationCriteria" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ComplianceRequired" size="5" type="VARCHAR"/>
+        <column dbtypename="numeric" name="GoodsOrServicesQuantity" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="UnitOfMeasure" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="VendorEngagementStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="EstimatedLeadTime" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="TotalAwardedAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="RequesterContactEmail" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RequesterPhoneNumber" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AdditionalInstructions" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SourcingEvaluationName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RequestForProposalNumber" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ProjectTitle" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EvaluationCommitteeName" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="BidSubmissionDate" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="CommitteeDecision" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ComplianceStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ScoringMethodology" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="TotalSupplierScore" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="AwardJustification" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EvaluationPeriodStartDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EvaluationPeriodEndDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ConflictOfInterestDeclaration" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierOnboardingName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierContactInformation" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="BusinessRegistrationNumber" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierAddress" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="OnboardingStage" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ComplianceVerificationStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="QualificationAssessmentOutcome" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="ApprovalDate" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="SupplierOnboardingNotes" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="OnboardingCompletionDate" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="SupplierOnboardingOutcome" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierOnboardingInitiator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractManagementName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ProcurementContractNumber" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractTitle" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractStartDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractEndDate" size="8" type="VARCHAR"/>
+        <column dbtypename="numeric" name="ContractAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="ContractReviewStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractTermsAndConditions" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractAmendmentRequested" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="GoverningRegulations" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractClosureDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="PrimaryContractManager" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AcquisitionOversightName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ProcurementInitiationMethod" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ProcurementCategory" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="StakeholderCoordinationStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EvaluationStage" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="GovernanceComplianceIndicator" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ContractAwardDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ProcurementDeadline" size="8" type="VARCHAR"/>
+        <column dbtypename="numeric" name="BudgetAllocationAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="CollaborationNotes" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ProcessIssueFlagged" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AutomatedEscalationTrigger" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DecisionRationale" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="ContractValue" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="OutcomeStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InventoryManagementName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InventoryItemName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="StockKeepingUnit" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ItemCategory" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="CurrentQuantity" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="MinimumStockLevel" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="MaximumStockLevel" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="ReorderQuantity" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="RestockAlert" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="OrderPlacementDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ExpectedDeliveryDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="FulfillmentStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="UnitPrice" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="TotalInventoryValue" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="Location" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="StorageCondition" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="LastRestockDate" size="8" type="VARCHAR"/>
+        <column dbtypename="numeric" name="UsageRate" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="SupplierPerformanceName" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="DeliveryTimeliness" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="QualityRating" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="ComplianceAdherence" size="5" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="PerformancePeriod" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="FeedbackComments" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="PeriodicAssessmentFrequency" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CorrectiveActionRequired" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CorrectiveActionDescription" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ResolutionStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="NextAssessmentDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="PerformanceOutcome" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RiskAssessmentName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ImpactSeverity" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Likelihood" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RiskTitle" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RiskType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DateIdentified" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="MitigationPlan" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="NextReviewDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ResidualRiskLevel" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RiskOwner" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="RiskScore" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="RiskStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="TargetResolutionDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AssociatedSubject" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InvestigationCase" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InvestigationReport" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupportingEvidence" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DisputeResolutionName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DisputeSubject" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DisputeType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Program" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AssignedInvestigator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ComplianceCheckComplete" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Correspondence" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Debt" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DisputeClaimDetails" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InvestigationStartDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="NegotiationOutcome" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Payment" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RegulatoryNotes" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ResolutionDate" size="8" type="VARCHAR"/>
+        <column dbtypename="numeric" name="SettlementAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="OrderFulfillmentName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="OrderType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="OrderRequestor" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="OrderUrgencyLevel" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="OrderQuantity" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="OrderNotes" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ShipmentTrackingNumber" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ShipmentStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ShipmentCarrier" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="DeliveryConfirmationDate" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="LogisticsIssueReported" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="LogisticsIssueDescription" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="FulfillmentSLATargetTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="ActualFulfillmentTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="numeric" name="FulfillmentTurnaroundDays" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="OrderCost" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="DeliveryLocation" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RecipientName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RecipientContactNumber" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DemandForecastingName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ForecastPeriod" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplyCategory" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="ForecastedDemandQuantity" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="ActualUsageQuantity" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="UsageTrendAnalysis" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DemandSpikeIndicator" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ReplenishmentTrigger" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ReplenishmentMethod" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ForecastApprovalStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Comments" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ReviewDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ComplianceAuditName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AuditPurpose" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AuditPeriodStartDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="FindingsSummary" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AuditCompletionDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AuditPeriodEndDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Auditor" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ComplianceRating" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CorrectiveActionsRecommended" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="NoncomplianceDetected" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Applicant" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ComplianceReport" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="GrantApplication" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="GrantProgram" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="StakeholderCollaborationName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CollaborationObjective" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CollaborationOutcomeSummary" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ParticipatingInternalTeams" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ParticipatingSuppliers" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ParticipatingOversightAgencies" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CollaborationStartDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CollaborationEndDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CollaborationStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ResolutionRecord" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AssignedFacilitator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="NextActionDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EmergencyProcurementName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ProcurementJustification" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RequestedItems" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EmergencyType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="UrgencyCommentary" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="EstimatedCost" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="BudgetAccount" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ApprovalStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DeliveryStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ActualDeliveryDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RecipientFacility" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DeliveryAddress" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="LogisticsCoordinationName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EstimatedArrivalDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ShipmentType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="PlannedRoute" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CurrentStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ShipmentTrackingLink" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ActualArrivalDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DeliveryInstructions" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CarrierName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DeliveryContact" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ReasonForDelay" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AssetDisposalName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AssetTag" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AuthorizedBy" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CategoryOfAsset" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DisposalReason" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EnvironmentalImpactAssessment" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="IntakeMethod" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="EvaluationOutcome" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DisposalMethod" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DisposalDate" size="8" type="VARCHAR"/>
+        <column dbtypename="numeric" name="EstimatedValue" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="RegulatoryComplianceStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DisposalLocation" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="DisposalCost" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="HazardousMaterialFlag" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierRenewalName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RenewalPeriod" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="PerformanceReevaluationScore" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="RenewalDecision" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CertificationUpdateRequired" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="CertificationSubmissionDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RiskAssessmentResult" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RenewalApprovalDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RenewalApprover" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RenewalComments" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierAcknowledgmentReceived" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RenewalReviewDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="NextRenewalDueDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AutomatedAlertsEnabled" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="BudgetAllocationName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="BudgetRequestID" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ProgramName" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="RequestedAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="AllocatedAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="AllocationDecision" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DecisionDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SpendMonitored" size="5" type="VARCHAR"/>
+        <column dbtypename="numeric" name="AmountSpent" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="RemainingAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="FundingExceptionFlag" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ExceptionType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ExceptionResolutionStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="FundingSource" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Notes" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="QualityAssuranceName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InspectionDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="GoodsOrServicesInspected" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InspectionOutcome" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="IssuesIdentified" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InspectionStandards" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Evaluator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RemediationActions" size="256" type="VARCHAR"/>
+    </table>
+    <index name="pc_work_idx1f9bcb" unique="false">
+        <index-column name="pxCoverInsKey" order="A"/>
+        <index-column name="pxObjClass" order="A"/>
+        <index-column name="pyStatusWork" order="A"/>
+    </index>
+    <index name="pc_work_idx288c09" unique="false">
+        <index-column name="pxApplication" order="A"/>
+        <index-column name="pxApplicationVersion" order="A"/>
+        <index-column name="pxObjClass" order="A"/>
+        <index-column name="pyStatusWork" order="A"/>
+    </index>
+</database>

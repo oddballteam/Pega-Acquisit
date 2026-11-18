@@ -1,0 +1,2 @@
+rule_type,applies_to,name,ruleset,ruleset_version,available,last_updated,saved_at,owning_file,instance_key
+RULE-UI-LOCALIZATION,@BASECLASS,LABEL!PYFIELDLABELS,Acquisit_Branch_BP-2,01-01-01,Yes,Tue Aug 25 22:10:41 GMT 2026,20260825T220110.057 GMT,instances_00002.bin,RULE-UI-LOCALIZATION @BASECLASS LABEL!PYFIELDLABELS #20260825T220110.057 GMT

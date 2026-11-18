@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database catalogName="" databaseName="CustomerData" schemaName="" type="6">
+    <table name="pr_myorg_acquisit_data_purchas">
+        <column dbtypename="varchar" name="pyGUID" pkname="pr_myorg_acquisit_datef5e9e_pk" primarykey="true" required="true" size="128" type="VARCHAR"/>
+        <column dbtypename="jsonb" name="pzjsonstream" size="2147483647" type="JSON"/>
+        <column dbtypename="timestamp" name="pxCommitDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pxCreateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxCreateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxSaveDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxUpdateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxUpdateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="PurchaseOrderName" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="OrderAmount" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="OrderDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="PurchaseOrderNumber" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ApprovalDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Currency" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DeliveryStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Justification" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="LastUpdatedDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="OrderDescription" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="OrderStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_1" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_2" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="RequestedDeliveryDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_3" size="128" type="VARCHAR"/>
+        <column dbtypename="numeric" name="TotalDeliveredAmount" scale="9" size="18" type="NUMERIC"/>
+    </table>
+</database>

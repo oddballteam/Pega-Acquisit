@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database catalogName="" databaseName="CustomerData" schemaName="" type="6">
+    <table name="pr_myorg_acquisit_data_invento">
+        <column dbtypename="varchar" name="pyGUID" pkname="pr_myorg_acquisit_datf7e24f_pk" primarykey="true" required="true" size="128" type="VARCHAR"/>
+        <column dbtypename="jsonb" name="pzjsonstream" size="2147483647" type="JSON"/>
+        <column dbtypename="timestamp" name="pxCommitDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pxCreateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxCreateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxSaveDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxUpdateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxUpdateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="InventoryItemName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="InventoryItemIdentifier" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ItemDescription" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="AcquisitionSource" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Condition" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="CurrentQuantity" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="DisposalInstructions" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ExpirationDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ItemCategory" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="LastIssuedDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="LastReceivedDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="Location" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="MinimumStockLevel" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="ReorderQuantity" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="StorageRequirements" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="TotalInventoryValue" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="numeric" name="UnitCost" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="UnitOfMeasure" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_1" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_2" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_3" size="128" type="VARCHAR"/>
+    </table>
+</database>

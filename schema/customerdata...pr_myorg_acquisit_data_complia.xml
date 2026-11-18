@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database catalogName="" databaseName="CustomerData" schemaName="" type="6">
+    <table name="pr_myorg_acquisit_data_complia">
+        <column dbtypename="varchar" name="pyGUID" pkname="pr_myorg_acquisit_datcfbbcc_pk" primarykey="true" required="true" size="128" type="VARCHAR"/>
+        <column dbtypename="jsonb" name="pzjsonstream" size="2147483647" type="JSON"/>
+        <column dbtypename="timestamp" name="pxCommitDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pxCreateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxCreateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxSaveDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxUpdateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxUpdateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="ComplianceDocumentName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DocumentID" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DocumentType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ApplicableRegulations" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DateIssued" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="DocumentStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="ExpiryDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="IssuingAuthority" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="LastModifiedDate" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="Remarks" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="RevisionNumber" scale="0" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="ScopeOfCoverage" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_1" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_2" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_3" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_4" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyGUID_5" size="128" type="VARCHAR"/>
+    </table>
+</database>

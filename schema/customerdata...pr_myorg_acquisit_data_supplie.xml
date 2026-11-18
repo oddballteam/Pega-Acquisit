@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database catalogName="" databaseName="CustomerData" schemaName="" type="6">
+    <table name="pr_myorg_acquisit_data_supplie">
+        <column dbtypename="varchar" name="pyGUID" pkname="pr_myorg_acquisit_dat3134c3_pk" primarykey="true" required="true" size="128" type="VARCHAR"/>
+        <column dbtypename="jsonb" name="pzjsonstream" size="2147483647" type="JSON"/>
+        <column dbtypename="timestamp" name="pxCommitDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pxCreateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxCreateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxCreateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxSaveDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxUpdateOperator" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateOpName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxUpdateSystemID" size="256" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxUpdateDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="SupplierName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierUniqueIdentifier" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierAccredited" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierActiveStatus" size="5" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierAddress" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierBankAccount" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierContactEmail" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierContactName" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierContactPhone" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierOnboardingStatus" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierPaymentTerms" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierPerformanceNotes" size="256" type="VARCHAR"/>
+        <column dbtypename="numeric" name="SupplierRating" scale="9" size="18" type="NUMERIC"/>
+        <column dbtypename="varchar" name="SupplierRegion" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierRegistrationDate" size="8" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierTaxIdentification" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierType" size="256" type="VARCHAR"/>
+        <column dbtypename="varchar" name="SupplierWebsite" size="256" type="VARCHAR"/>
+    </table>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database catalogName="" databaseName="PegaDATA" schemaName="" type="6">
+    <table name="pr_History_MyOrg_Acquisi_76ee4">
+        <column dbtypename="timestamp" name="pxCommitDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="timestamp" name="pxSaveDateTime" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pxHistoryForReference" size="255" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxInsName" size="512" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pxObjClass" size="128" type="VARCHAR"/>
+        <column dbtypename="timestamp" name="pxTimeCreated" size="29" type="TIMESTAMP"/>
+        <column dbtypename="varchar" name="pyLabel" size="64" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyMemo" size="255" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyPerformer" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pzInsKey" pkname="pr_history_myorg_acquisi_76ee4_pk" primarykey="true" required="true" size="512" type="VARCHAR"/>
+        <column dbtypename="bytea" name="pzPVStream" size="2147483647" type="BINARY"/>
+        <column dbtypename="varchar" name="pxRuleAction" size="128" type="VARCHAR"/>
+        <column dbtypename="varchar" name="pyHasHistorySnapshot" size="5" type="VARCHAR"/>
+    </table>
+    <index name="pr_history_data_idx26a1d9" unique="false">
+        <index-column name="pxTimeCreated" order="A"/>
+        <index-column name="pxObjClass" order="A"/>
+    </index>
+    <index name="pr_history_data_idx36bdea" unique="false">
+        <index-column name="pxHistoryForReference" order="A"/>
+        <index-column name="pxObjClass" order="A"/>
+    </index>
+</database>

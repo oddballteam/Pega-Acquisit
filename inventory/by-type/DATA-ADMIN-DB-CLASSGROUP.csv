@@ -1,0 +1,3 @@
+rule_type,applies_to,name,ruleset,ruleset_version,available,last_updated,saved_at,owning_file,instance_key
+DATA-ADMIN-DB-CLASSGROUP,,HISTORY-MYORG-ACQUISIT-WORK,Acquisit_Branch_BP-2,,,Tue Aug 25 21:53:23 GMT 2026,,instances_00000.bin,DATA-ADMIN-DB-CLASSGROUP HISTORY-MYORG-ACQUISIT-WORK
+DATA-ADMIN-DB-CLASSGROUP,,MYORG-ACQUISIT-WORK,Acquisit_Branch_BP-2,,,Tue Aug 25 21:53:21 GMT 2026,,instances_00000.bin,DATA-ADMIN-DB-CLASSGROUP MYORG-ACQUISIT-WORK
